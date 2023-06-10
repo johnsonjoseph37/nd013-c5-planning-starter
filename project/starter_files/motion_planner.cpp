@@ -5,7 +5,6 @@
  **********************************************/
 
 #include "motion_planner.h"
-#include <corecrt_math_defines.h>
 
 MotionPlanner::~MotionPlanner() {}
 

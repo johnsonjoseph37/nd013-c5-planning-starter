@@ -9,7 +9,6 @@
  **/
 
 #include "behavior_planner_FSM.h"
-#include <corecrt_math_defines.h>
 
 State BehaviorPlannerFSM::get_closest_waypoint_goal(
     const State& ego_state, const SharedPtr<cc::Map>& map,
