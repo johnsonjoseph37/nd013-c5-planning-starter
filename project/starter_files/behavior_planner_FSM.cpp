@@ -212,7 +212,7 @@ State BehaviorPlannerFSM::state_transition(const State& ego_state, State goal,
   return goal;
 }
 
-double calc_distance(const double& v_i,
+double BehaviorPlannerFSM::calc_distance(const double& v_i,
                      const double& v_f,
                      const double& a)  {
   double d{0.0};

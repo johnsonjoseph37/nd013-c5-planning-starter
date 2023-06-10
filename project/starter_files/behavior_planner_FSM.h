@@ -87,6 +87,7 @@ class BehaviorPlannerFSM {
                          State goal,
                          bool& is_goal_in_junction,
                          string tl_state);
+  double calc_distance(const double& v_i, const double& v_f, const double& a);
 
   Maneuver get_active_maneuver() { return _active_maneuver; };
 };
